@@ -1,8 +1,22 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+var saveBtn = $(".saveBtn");
+//var userInput = $(".description");
+
+var userInput = JSON.parse(localStorage.getItem(".description"));
+
+var todaysDate = dayjs();
+$('#currentDay').text(todaysDate.format('MMM D, YYYY'));
+
+
+
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
+  saveBtn.on("click", function() {
+    localStorage.setItem(".description", JSON.stringify(userInput));
+  });
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
   // function? How can DOM traversal be used to get the "hour-x" id of the
@@ -10,6 +24,16 @@ $(function () {
   // useful when saving the description in local storage?
   //
   // TODO: Add code to apply the past, present, or future class to each time
+  // if (currentTime === somethingHere) {
+  //   bg color red
+  //   .present
+  // } else if {
+  //   currentTime === afterEvent bg color gray
+  //   .past
+  // } else { 
+  //   bg color green
+  //   .future
+  // };
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
   // past, present, and future classes? How can Day.js be used to get the
@@ -20,4 +44,5 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
+
 });
