@@ -1,28 +1,36 @@
-# Work Day Scheduler Starter Code
-Acceptance criteria
+# Work Day Scheduler
+## Why was this project created?
 
-GIVEN I am using a daily planner to create a schedule
+## What does this application solve?
 
-WHEN I open the planner
 
-THEN the current day is displayed at the top of the calendar
+## What this project has taught me
 
-WHEN I scroll down
 
-THEN I am presented with time blocks for standard business hours of 9am to 5pm
+<details>
+<summary> Link to live site & screenshot </summary>
 
-WHEN I view the time blocks for that day
+link here
 
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
+description
+![Screenshot of website]()
 
-WHEN I click into a time block
+description
+![Screenshot of website]()
 
-THEN I can enter an event
+description
+![Screenshot of website]()
 
-WHEN I click the save button for that time block
+</details>
 
-THEN the text for that event is saved in local storage
+<details>
+<summary> Process Summary </summary>
 
-WHEN I refresh the page
 
-THEN the saved events persist
+</details>
+
+<details>
+<summary> Credits </summary>
+
+
+</details>
