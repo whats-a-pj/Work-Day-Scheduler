@@ -12,7 +12,7 @@ This project has taught me that breaking things down into smaller issues still t
 <details>
 <summary> Link to live site & screenshot </summary>
 
-link here
+https://whats-a-pj.github.io/Work-Day-Scheduler/
 
 At 11am, after saving tests to planner
 ![Screenshot of website](Assets/workdayschedule.png)
@@ -51,6 +51,10 @@ Took all my files out of my develop folder
 Ran into an error, had to move them back in
 
 Then had to take all the files out of my develop folder again
+
+Unpublished site then re-deployed it after fixing assets folder issues because of ds_store and naming issues of assets folder
+
+Updated README with live site link and screenshot
 
 </details>
 
