@@ -50,6 +50,14 @@ Added an if statement in that function for the 12PM div in my html file
 
 Updated README
 
+Deployed site, but deployed site was just the README instead of the contents in my develop folder.
+
+Took all my files out of my develop folder
+
+Ran into an error, had to move them back in
+
+Then had to take all the files out of my develop folder again
+
 </details>
 
 <details>
