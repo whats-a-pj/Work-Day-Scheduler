@@ -14,14 +14,8 @@ This project has taught me that breaking things down into smaller issues still t
 
 link here
 
-description
-![Screenshot of website]()
-
-description
-![Screenshot of website]()
-
-description
-![Screenshot of website]()
+At 11am, after saving tests to planner
+![Screenshot of website](assets/workdayschedule.png)
 
 </details>
 
